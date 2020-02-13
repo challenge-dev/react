@@ -1,0 +1,21 @@
+.grid-4x4 {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.grid-4x4-item {
+  flex: 25%;
+}
+
+@media only screen and (max-width: 720px) {
+  .grid-4x4-item {
+    flex: 50%;
+  } 
+}
+
+@media only screen and (max-width: 360px) {
+  .grid-4x4-item {
+    flex: 100%;
+  } 
+}
